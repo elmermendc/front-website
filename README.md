@@ -1,10 +1,10 @@
 
 # Página Web
 
-Desktop
+## Desktop
 ![Desktop](https://github.com/elmermendc/front-website/assets/118638694/3f1f5cde-3293-45e3-941f-672e1400857e)
 
-Mobile
+## Mobile
 ![Mobile](https://github.com/elmermendc/front-website/assets/118638694/6999d715-4eb2-454f-a7f3-035c3c41fec5)
 
 
