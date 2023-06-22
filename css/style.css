@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.principal {
+  padding: 75px 40px 40px 40px;
+}
+.principal img {
+  width: 100%;
+}
+.principal-info {
+  margin-top: 100px;
+  text-align: right;
+}
+.principal-info-titulo {
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: -0.035em;
+  line-height: 114.6%;
+  color: #232c50;
+}
+.principal-info-subtitulo {
+  font-weight: 500;
+  font-size: 16.5584px;
+  line-height: 157.1%;
+  color: #000000;
+  margin: 28px 0px 28px 0px;
+}
+.btn-estilo {
+  background: #8b48bf;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 13.1806px;
+  height: 44px;
+  line-height: 19px;
+  padding: 10px;
+  width: 134px;
+}
+.btn-estilo:hover {
+  background: rgba(139, 72, 191, 0.7);
+  cursor: pointer;
+}
+
+.pregunta {
+  background: #3cddf3;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 40px 20px;
+}
+.pregunta-titulo {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 114.6%;
+}
+.pregunta-respuesta {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 151.1%;
+}
+
+.actividades {
+  padding: 65px 0px 65px 34px;
+}
+.actividades-titulo {
+  background: rgba(139, 72, 191, 0.3);
+  border-radius: 50px 0px 0px 50px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.015em;
+}
+.numero {
+  color: #ffffff;
+  background: #8b48bf;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+.actividades-descripcion {
+  font-weight: 500;
+  font-size: 16.2984px;
+  line-height: 26px;
+  color: #b3b2b7;
+  letter-spacing: -0.01em;
+  padding: 31px 28px 30px 6px;
+}
+
+.mejores {
+  padding: 0px 17px 58px 17px;
+  text-align: center;
+}
+.mejores-titulo {
+  font-weight: 700;
+  font-size: 39.2143px;
+  line-height: 156.6%;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+.mejores-lista {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 45px;
+}
+.sayno,
+.navarro {
+  display: none;
+}
+.blanco {
+  height: 109px;
+  width: 100%;
+  background-color: #ffffff;
+}
+.mejores-lista img {
+  position: absolute;
+  text-align: center;
+  top: 72px;
+}
+.mejores-nombre {
+  font-weight: 700;
+  font-size: 16.0714px;
+  line-height: 156.6%;
+  margin-top: 56px;
+}
+.mejores-descripcion {
+  color: #b9b9c1;
+  margin: 21px 28px 39px 27px;
+}
+
+.conocer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background: #3cddf3;
+  padding: 40px 50px;
+}
+.conocer-titulo {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.005em;
+  text-align: center;
+}
+.btn-conocer {
+  background: #232c50;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  width: 134px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+footer {
+  background: #1e1e26;
+  padding: 40px 50px;
+}
+.foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+form {
+  display: flex;
+  gap: 10px;
+}
+
+form input[type="text"] {
+  background-color: #ffffff;
+  border-radius: 50px;
+  width: 308px;
+  height: 44px;
+  padding-left: 10px;
+}
+form input[type="text"]::placeholder {
+  font-weight: 600;
+  font-size: 13.1806px;
+  line-height: 19px;
+  color: #a0a0a0;
+}
+form input[type="submit"] {
+  width: 63px;
+}
+.navegacion-footer ul {
+  column-count: 2;
+  column-gap: 100px;
+  list-style-type: none;
+}
+.navegacion-footer ul li {
+  color: #ffffff;
+  padding: 12px;
+}
+.redesLogo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.logo2 {
+  padding: 25px;
+  margin: 0 auto;
+}
+.redes {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright {
+  font-weight: 500;
+  font-size: 12.5px;
+  line-height: 18px;
+  color: #8c8c94;
+  text-align: center;
+}
+
+.navegacion-header {
+  display: none;
+}
+.btn-contacto {
+  display: none;
+}
+
+@media screen and (min-width: 481px) {
+  .navegacion-header {
+    display: inline-block;
+  }
+  .btn-contacto {
+    display: block;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  }
+
+  .navegacion-header ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 28px;
+  }
+  .navegacion-header ul li {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .navegacion-header ul li:hover {
+    cursor: pointer;
+    color: rgba(36, 46, 82, 0.6);
+  }
+
+  .principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 170px 95px 180px;
+  }
+
+  .principal-info {
+    margin-top: 0px;
+  }
+  .principal-info-titulo {
+    font-size: 4vw;
+  }
+  .principal-info-subtitulo {
+    font-size: 1vw;
+  }
+
+  .pregunta {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background: #8b48bf;
+    padding: 5vh 10vw;
+  }
+  .pregunta-titulo,
+  .pregunta-respuesta {
+    flex: 1;
+  }
+
+  .actividades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #fafafa;
+    grid-gap: 74px;
+  }
+  .actividades article {
+    width: 553px;
+    height: 158px;
+  }
+  .actividades-titulo {
+    background: none;
+    gap: 23px;
+  }
+  .actividades-descripcion {
+    padding-left: 92px;
+    padding-top: 18px;
+  }
+
+  .mejores {
+    padding: 97px 71px 180px 71px;
+  }
+  .sayno,
+  .navarro {
+    display: block;
+  }
+  .mejores-articulo {
+    display: flex;
+  }
+
+  .conocer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #8b48bf;
+    padding: 64px 165px;
+  }
+  .conocer-titulo {
+    width: 420px;
+  }
+  .btn-conocer {
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    color: #8b48bf;
+    cursor: pointer;
+  }
+
+  .foot {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+  .redesLogo {
+    flex-direction: column-reverse;
+    gap: 78px;
+    width: auto;
+  }
+  form input[type="text"] {
+    width: 201px;
+  }
+  .logo2 {
+    padding: 0;
+  }
+  .redes {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+  }
+  .copyright {
+    text-align: right;
+    padding-right: 5%;
+  }
+
+  .navegar {
+    display: none;
+  }
+}
